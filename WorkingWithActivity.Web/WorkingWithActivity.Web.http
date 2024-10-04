@@ -1,0 +1,9 @@
+@WorkingWithActivity.Web_HostAddress = http://localhost:5012
+
+## Get health
+GET {{WorkingWithActivity.Web_HostAddress}}/health
+Accept: application/json
+
+### Home 
+GET {{WorkingWithActivity.Web_HostAddress}}/
+Accept: application/json
